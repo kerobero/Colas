@@ -39,6 +39,7 @@ public class Cola {
      * Averiguamos si la cola esta vacía
      * @return
      */
+
     public boolean ColaVacia(){
         if(Final==-1)
             return true;
@@ -77,9 +78,11 @@ public class Cola {
         else
             System.out.println("No es pósible ingresar mas elementos");        
     }
+
     /**
      * Eliminar un elemento a la cola.
      */
+
     public void Desencolar(){
         if(ColaVacia())
             System.out.println("No hay Elementos");
@@ -95,6 +98,7 @@ public class Cola {
     /**
      * Muestra los elementos actuales de la cola.
      */
+
     public void MostrarCola(){
         if(!ColaVacia()){
           for (int i=Frente;i<=Final;i++)
